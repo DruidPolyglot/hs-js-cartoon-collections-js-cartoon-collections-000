@@ -1,6 +1,7 @@
 function dwarfRollCall(dwarves) {
   var array = [];
-  for (let i = 0; i < dwarves.length; i++) { // create a for loop to draw in an increment to pull from the program
+  var end = dwarves.length / 2
+  for (let i = 0; i < end; i++) { // create a for loop to draw in an increment to pull from the program
      array.push(`${i+1}. ${dwarves[i]}`);
   } // insert the information using a push command
   return array.join(" ") + " ";

@@ -38,9 +38,10 @@ function wordsWithB (words) {
   for (let i = 0; i < words.length; i++) {
   if (words[i].charAt(0) === 'b') {
      array.push(`${words[i]}`);
-       return words[i] 
-      }
+   }
   }
+       return array;
+    
   // call an array of words, "apple" "bacon" "banana" return only words with letter /b/
 }
 

@@ -33,4 +33,12 @@ function findTheCheese (foods) {
  return 'no cheese!';
 }
 
+function wordsWithB (words) {
+  var array = [];
+  for (let i = 0; i < words.length; i++) {
+  if (words[i] )
+  }
+  // call an array of words, "apple" "bacon" "banana" return only words with letter /b/
+}
+
 
